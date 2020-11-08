@@ -1,0 +1,21 @@
+{
+  "[typescript]": {
+    // 保存時にコードを自動整形
+    "editor.formatOnSave": true,
+    // TSLintの自動修正を保存時に自動的に適用するための設定
+    "editor.codeActionsOnSave": {
+      "source.fixAll.tslint": true
+    }
+  },
+  // 起動時に表示するエディタ
+  "workbench.startupEditor": "none",
+  // 入力候補のデフォルトの選択値
+  "editor.suggestSelection": "first",
+  // 入力候補の初期表示項目設定
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // エディタの配色テーマ
+  "workbench.colorTheme": "Dracula",
+  // 再起動後に復元するウィンドウ
+  "window.restoreWindows": "all",
+  "editor.formatOnSave": true
+}
